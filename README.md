@@ -65,7 +65,6 @@ To create your own template repository on github
 To install this repository into a new project each time, first
 
 * Clone the github repository using the git clone command from /Desktop
-* Move the .pairs folder to the /users folder (one level up from /Desktop)
 * Create a new folder in the Desktop with your project name
 * Copy and paste the entire contents of the cloned /bootstrap-jquery-project-template into your new folder (this should not include the .pairs file)
 * Move into your new folder and initialize git as normal
@@ -74,7 +73,8 @@ To install this repository into a new project each time, first
 Some **DONT'S**
 
 * Don't just rename the cloned git repository - that will mess up future commits.  Do the copy/paste
-* If you're using a bootstrap template, don't replace the <head> tag.  Only change the <body> tag.  The templates include code at the top and bottom that bring in js and css we're already including and a bunch we don't use.  If you call a js or css file twice, it causes problems.  
+* If you're using a bootstrap template, don't replace the <head> tag.  Only change the <body> tag.  The templates include code at the top and bottom that bring in js and css we're already including and a bunch we don't use.  If you call a js or css file twice, it causes problems.
+ 
 ## Known Bugs
 
 None.  But we haven't really tested much, so if you find anything, let us know and we'll fix it and update the repo.  
